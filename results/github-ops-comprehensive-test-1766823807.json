@@ -1,0 +1,140 @@
+{
+  "total": 22,
+  "passed": 6,
+  "failed": 9,
+  "skipped": 7,
+  "tests": [
+    {
+      "name": "validate_github_token",
+      "status": "PASSED",
+      "message": "User: N/A",
+      "timestamp": "2025-12-27T11:22:49.610187"
+    },
+    {
+      "name": "list_repositories",
+      "status": "PASSED",
+      "message": "Found 25 repositories",
+      "timestamp": "2025-12-27T11:22:50.421514"
+    },
+    {
+      "name": "get_repository_info",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:11.469644"
+    },
+    {
+      "name": "list_branches",
+      "status": "PASSED",
+      "message": "Found 0 branches",
+      "timestamp": "2025-12-27T11:23:12.165466"
+    },
+    {
+      "name": "create_branch",
+      "status": "SKIPPED",
+      "message": "No SHA available for default branch",
+      "timestamp": "2025-12-27T11:23:12.165676"
+    },
+    {
+      "name": "list_repository_contents",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:12.816981"
+    },
+    {
+      "name": "create_file",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:13.557296"
+    },
+    {
+      "name": "get_file_content",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:15.262548"
+    },
+    {
+      "name": "update_file",
+      "status": "SKIPPED",
+      "message": "No file SHA available",
+      "timestamp": "2025-12-27T11:23:15.262795"
+    },
+    {
+      "name": "create_file (2nd)",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:16.001063"
+    },
+    {
+      "name": "list_commits",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:16.752384"
+    },
+    {
+      "name": "create_pull_request",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:17.456923"
+    },
+    {
+      "name": "list_pull_requests",
+      "status": "PASSED",
+      "message": "Found 0 open PRs",
+      "timestamp": "2025-12-27T11:23:19.277540"
+    },
+    {
+      "name": "merge_pull_request",
+      "status": "SKIPPED",
+      "message": "No PR created",
+      "timestamp": "2025-12-27T11:23:19.277671"
+    },
+    {
+      "name": "create_issue",
+      "status": "PASSED",
+      "message": "Created issue #2: Test Issue - 1766823799",
+      "timestamp": "2025-12-27T11:23:20.261154"
+    },
+    {
+      "name": "list_issues",
+      "status": "PASSED",
+      "message": "Found 1 open issues",
+      "timestamp": "2025-12-27T11:23:21.082620"
+    },
+    {
+      "name": "update_issue",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:22.320313"
+    },
+    {
+      "name": "delete_file (1st)",
+      "status": "SKIPPED",
+      "message": "File not found on default branch",
+      "timestamp": "2025-12-27T11:23:26.005668"
+    },
+    {
+      "name": "delete_file (2nd)",
+      "status": "SKIPPED",
+      "message": "File not found on default branch",
+      "timestamp": "2025-12-27T11:23:26.859281"
+    },
+    {
+      "name": "delete_branch",
+      "status": "FAILED",
+      "message": "",
+      "timestamp": "2025-12-27T11:23:27.661204"
+    },
+    {
+      "name": "fork_repository",
+      "status": "SKIPPED",
+      "message": "Manual test only - creates permanent copy",
+      "timestamp": "2025-12-27T11:23:27.665405"
+    },
+    {
+      "name": "delete_repository",
+      "status": "SKIPPED",
+      "message": "Manual test only - DANGEROUS!",
+      "timestamp": "2025-12-27T11:23:27.669985"
+    }
+  ]
+}
